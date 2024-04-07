@@ -6,13 +6,13 @@ from tkinter import messagebox
 class Login_Window:
     def __init__(self, root):
         self.root = root
-        self.root.title("Login")
+        self.root.title("Login TO Access")
         self.root.geometry("1300x800+0+0")
         self.bg=ImageTk.PhotoImage(file=r"C:\Users\zakir\OneDrive\Desktop\github\Login_form\R.jpg")
         lbl_bg=Label(self.root, image=self.bg)
         lbl_bg.place(x=0, y=0, relwidth = 1, relheight=1)
 
-        frame = Frame(self.root, bg="black")
+        frame = Frame(self.root, bg="blue")
         frame.place(x=610, y=170, width = 340, height=450)
 
         img1 = Image.open(r"C:\Users\zakir\OneDrive\Desktop\github\Login_form\R1.png")
